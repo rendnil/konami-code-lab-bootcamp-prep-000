@@ -26,6 +26,6 @@ document.body.addEventListener('keydown', listener(e){
     }
   }
 
-}
+})
 
 }
