@@ -9,21 +9,17 @@ const body = document.querySelector('body')
  
 
 document.body.addEventListener('keydown', listener(e){
+  const key = parseInt(e.detail || e.which)
 
-
+  if (key === code[index]){
   
-const key = parseInt(e.detail || e.which)
-
-
-if (key === code[index]){
-  
-  index++
-  if (index === code.length){
-    
-    alert("Nicely Done!")
-    index = 0
-    
-  }
+    index++
+    if (index === code.length){
+      
+      alert("Nicely Done!")
+      index = 0
+      
+    }
 
   }else{
   
@@ -33,6 +29,6 @@ if (key === code[index]){
 
 }
 }
-)}
+})
 
 }
