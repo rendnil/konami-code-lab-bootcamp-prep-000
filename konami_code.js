@@ -8,10 +8,9 @@ let index = 0
 const body = document.querySelector('body')
  
 
-body.addEventListener('keydown', listener(e))
+document.body.addEventListener('keydown', listener(e){
 
 
-function listener(e){
   
 const key = parseInt(e.detail || e.which)
 
@@ -33,5 +32,7 @@ if (key === code[index]){
 }
 
 }
+}
+)}
 
 }
