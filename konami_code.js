@@ -7,7 +7,11 @@ function init() {
 let index = 0
 const body = document.querySelector('body')
  
+<<<<<<< HEAD
 body.addEventListener('keydown', listener)
+=======
+body.addEventListener('keydown', listener())
+>>>>>>> 732b8e64b92de6eac59d3eb8b7e878fdd59286d3
 
 function listener(e){
   
