@@ -24,7 +24,7 @@ document.body.addEventListener('keydown', listener(e){
       index = 0
     
     }
-  }
+  })
 
 })
 
