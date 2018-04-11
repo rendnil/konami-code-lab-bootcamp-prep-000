@@ -8,7 +8,7 @@ let index = 0
 const body = document.querySelector('body')
  
 
-body.addEventListener('keydown', listener)
+body.addEventListener('keydown', listener())
 
 
 function listener(e){
