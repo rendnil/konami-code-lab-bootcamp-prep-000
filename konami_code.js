@@ -12,20 +12,16 @@ document.body.addEventListener('keydown', listener(e){
   const key = parseInt(e.detail || e.which)
 
   if (key === code[index]){
-  
     index++
     if (index === code.length){
       
       alert("Nicely Done!")
       index = 0
+    } else{
       
+      index = 0
+    
     }
-
-  }else{
-  
-  index = 0
-
-}
 
 }
 }
